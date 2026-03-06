@@ -1,15 +1,13 @@
-High Lift Prediction Workshop 6 - Template Submission Files
+# High Lift Prediction Workshop 6 - Template Submission Files
 
-This folder contains four files participants are expected to modify and submit for test case 1:
+This folder contains four files participants are expected to modify and submit for Test Case 1:
 
-**XXX\_TC1\_TFG\_DATASET\_FM.dat** =   
-**XXX\_TC1\_TFG\_DATASET\_gridconvergence\_FM.dat** =  
-**XXX\_TC1\_TFG\_DATASET\_nominalgrid\_cpcf.dat** =   
-**XXX\_TC1\_TFG\_DATASET\_nominalgrid\_iterative.dat** =  
-**XXX\_TC1\_TFG\_DATASET\_partipant\_info.dat** =  
+1. **XXX\_TC1\_TFG\_DATASET\_FM.dat** = Converged or time-averaged Force and Moment data vs. angle of attack, multiple grid levels may be included 
+2. **XXX\_TC1\_TFG\_DATASET\_gridconvergence\_FM.dat** =  Converged or time-averaged Force and Moment data vs. grid level, multiple angles of attack may be included (this is a transpse of #1)
+3. **XXX\_TC1\_TFG\_DATASET\_nominalgrid\_cpcf.dat** = Surface pressure and skin friction distributions at locations corresponding to experimental pressure belts. These are defined here: <insert link to distribution definition> 
+4. **XXX\_TC1\_TFG\_DATASET\_nominalgrid\_iterative.dat** = Solver iterative convergence with respect to iteration, or if time-dependent, with respect to convective time
 
-Additionally, participants should revise the Readme.md to include the following data:
-
+Additionally, participants should revise the Readme.md (this file) within their submission directory to include the following data:
 
 # PARTICIPANT INFO:
 
