@@ -14,13 +14,13 @@ Additionally, participants should revise the Readme.md (this file) within their 
 # Name(s) and Organization(s):
 Insert name(s) and corresponding organization(s) here
 
-# Primary Email:  
+## Primary Email:  
 Insert point of contact (POC) email here
 
-# Primary Phone:  
+## Primary Phone:  
 Insert POC phone here
 
-# Address:  
+## Address:  
 Insert POC address here
  
 
