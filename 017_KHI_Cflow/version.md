@@ -1,6 +1,6 @@
-# 017_TC1_R: Release Notes
+# Release Notes
+## 017_TC1_R_01, 2026/5/16, Dataset for Mini-workshop 1.  
 Grid family: R.1.TC1.01 HeldenMesh fixed grid family (Helden Series 03)  
-## No.01, 2026/5/16, Dataset for Mini-workshop 1.  
 Grid level: B, C, D, E  
 Dataset: FM, gridconvergence_FM(\*1), FlowViz (B,C,D,E)(\*)  
 (\*) Visualization results except for View6.  
