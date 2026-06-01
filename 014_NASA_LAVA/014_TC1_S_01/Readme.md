@@ -1,6 +1,6 @@
-# High Lift Prediction Workshop 6 - LAVA Cartesian Participant ID-014
+# High Lift Prediction Workshop 6 - LAVA Unstructured Participant ID-014
 
-This folder contains four files participants are expected to modify and submit for Test Case 1:
+This folder contains three files participants are expected to modify and submit for Test Case 1:
 
 1. **FM.dat** = Converged or time-averaged Force and Moment data vs. angle of attack, multiple grid levels may be included
 2. **gridconvergence\_FM.dat** =  Converged or time-averaged Force and Moment data vs. grid level, multiple angles of attack may be included (this is a transpose of #1)
@@ -31,15 +31,15 @@ Launch, Ascent, and Vehicle Aerodynamics (LAVA) Framework, Version 1.0.1
 
 ## Basic Algorithm:  
 LAVA Unstructured uses arbitrary polyhedral unstructured meshes with a cell-centered finite-volume formulation.
-In this test, a WMLES approach is used with low dissipation, kinetic energy perserving convective flux paired with sensor-based application of localized upwinding. Time integration is explicit with the 3rd order accurate SSPRK33 scheme. An constant coefficient Vreman SGS model is used with directional filter size. An equilibrium wall model is used in conjuction with a turbulence sensor that switches between no-slip and wall model wall stress based on resolved turbulence kinetic energy level. The wall model uses first cell center off the wall as the sampling location. Details about the scheme are documented in Sozer et al 2025, SciTech (https://arc.aiaa.org/doi/abs/10.2514/6.2025-0887). 
+In this test, a WMLES approach is used with low dissipation, kinetic energy preserving convective flux paired with sensor-based application of localized upwinding. Time integration is explicit with the 3rd order accurate SSPRK33 scheme. A constant coefficient Vreman SGS model is used with directional filter size. An equilibrium wall model is used in conjunction with a turbulence sensor that switches between no-slip and wall model wall stress based on resolved turbulence kinetic energy level. The wall model uses the first cell center off the wall as the sampling location. Details about the scheme are documented in Sozer et al 2025, SciTech (https://arc.aiaa.org/doi/abs/10.2514/6.2025-0887). 
 
 ## Turbulence Model:  
 - Constant coefficient Vreman subgrid scale model with directional filter size.
-- Equilibrium wall model
+- Equilibrium wall model.
 
 ## Transition Method:
-- Wall model switched between no-slip (laminar) and wall function (turbulent) wall stresses based on detected resolved turbulence kinetic energy at the first cell off the wall.
-- No true transition model is used
+- Wall model switches between no-slip (laminar) and wall function (turbulent) wall stresses based on detected resolved turbulence kinetic energy at the first cell center off the wall.
+- No true transition model is used.
 
 ## Convergence Criteria:
 N/A
@@ -65,7 +65,7 @@ Unstructured Voronoi
 (L11) 260094313
 
 ## Miscellaneous:  
-Insert any other information about the grids or solution procedure(s) used for Case 2.1 here
+Insert any other information about the grids or solution procedure(s) used for Test Case 1 here
 
 # "TYPICAL" SOLUTION PERFORMANCE INFORMATION 
 ## Grid size:
